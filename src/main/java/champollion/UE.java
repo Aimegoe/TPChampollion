@@ -1,6 +1,9 @@
 package champollion;
 
 public class UE {
+    private int heureCM;
+    private int heureTD;
+    private int heureTP;
     private final String myIntitule;
 
     public UE(String intitule) {
@@ -11,5 +14,15 @@ public class UE {
         return myIntitule;
     }
 
-    
+    public int getHeureCM() {
+        return heureCM;
+    }
+
+    public int getHeureTD() {
+        return heureTD;
+    }
+
+    public int getHeureTP() {
+        return heureTP;
+    }
 }
